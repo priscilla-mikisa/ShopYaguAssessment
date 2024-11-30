@@ -1,0 +1,149 @@
+{
+    "shops": [
+      {
+        "id": 1,
+        "name": "Mama Gina",
+        "logo": "/images/store.avif",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 2,
+        "name": "Nothern Winds",
+        "logo": "/images/clothe.jpg",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 3,
+        "name": "Next Door",
+        "logo": "/images/shoplogo.jpg",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 4,
+        "name": "Blue Mountain",
+        "logo": "/images/clothe.jpg",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 5,
+        "name": "Western Union",
+        "logo": "/images/westernUnion.jpg",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 6,
+        "name": "Set Out",
+        "logo": "/images/setout.jpg",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 7,
+        "name": "Open",
+        "logo": "/images/setout.jpg",
+        "description": "All your favorite hardware"
+      }
+      ,
+      {
+        "id": 8,
+        "name": "Out Door",
+        "logo": "/images/setout.jpg",
+        "description": "All your favorite hardware"
+      },
+      {
+        "id": 9,
+        "name": "Set",
+        "logo": "/images/shoplogo.jpg",
+        "description": "All your favorite hardware"
+      }
+      ,
+      {
+        "id": 10,
+        "name": "OTT",
+        "logo": "/images/store.avif",
+        "description": "All your favorite hardware"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "image": "/images/bananas.jpg",
+        "name": "Banana",
+        "description": "Fresh bananas",
+        "price": 800,
+        "shop":"Blue Mountain"
+      },
+      {
+        "id": 2,
+        "image": "/images/shirts.webp",
+        "name": "Gen-z Wear",
+        "description": "Look stunningly adorable this festive season.",
+        "price": 1000,
+        "shop":"Blue Mountain"
+      },
+      {
+        "id": 3,
+        "image": "/images/shirts.webp",
+        "name": "Gen-z Wear",
+        "description": "Look stunningly adorable this festive season.",
+        "price": 1000,
+        "shop":"Next Door"
+      },
+      {
+        "id": 4,
+        "image": "/images/shirts.webp",
+        "name": "Gen-z Wear",
+        "description": "Look stunningly adorable this festive season.",
+        "price": 1000,
+        "shop":"Blue Mountain"
+      },
+      {
+        "id": 5,
+        "image": "/images/shirts.webp",
+        "name": "Gen-z Wear",
+        "description": "Look stunningly adorable this festive season.",
+        "price": 1000,
+        "shop":"Next Door"
+      },
+      {
+        "id": 6,
+        "image": "/images/toys.png",
+        "name": "Toys",
+        "description": "Fun and Play",
+        "price": 10,
+        "shop":"Mama Gina"
+      },
+      {
+        "id": 7,
+        "image": "/images/toys.png",
+        "name": "Toys",
+        "description": "Fun and Play",
+        "price": 10,
+        "shop":"Mama Gina"
+      },
+      {
+        "id": 8,
+        "image": "/images/shirts.webp",
+        "name": "Gen-z Wear",
+        "description": "Look stunningly adorable this festive season.",
+        "price": 100,
+        "shop":"Next Door"
+      },
+      {
+        "id": 9,
+        "image": "/images/shirts.webp",
+        "name": "Gen-z Wear",
+        "description": "Look stunningly adorable this festive season.",
+        "price": 700,
+        "shop":"Next Door"
+      },
+      {
+        "id": 10,
+        "image": "/images/toys.png",
+        "name": "Toys",
+        "description": "Fun and Play",
+        "price": 10,
+        "shop":"Next Door"
+      }
+    ]
+  }
+  

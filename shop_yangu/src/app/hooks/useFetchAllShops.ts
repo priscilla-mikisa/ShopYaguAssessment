@@ -4,7 +4,7 @@ import { fetchShops } from "../utils/fetchAllShops";
 import { fetchProducts } from "../utils/fetchAllProducts";
 
 type Shop = {
-  products: any;
+  products?: string;
   id: number;
   name: string;
   logo: string;

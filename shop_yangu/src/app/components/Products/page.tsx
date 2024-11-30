@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaPlusCircle, FaEdit, FaTrashAlt } from "react-icons/fa";
 import Layout from "../Layout";
 import Link from "next/link";
+import Image from "next/image";
 import useProducts from "@/app/hooks/useFetchAllProducts";
 import ConfirmationModal from "../ConfirmModal";
 
@@ -110,7 +111,12 @@ const ProductsPage: React.FC = () => {
               {currentPageProducts.map((product) => (
                 <tr key={product.id} className="hover:bg-gray-100">
                   <td className="border border-gray-300 px-4 py-2">
-                    <img src={product.image} alt={product.name} className="w-16 h-16 object-cover" />
+                    <Image
+                     src={product.image}
+                      alt={product.name}
+                      width={100}
+                      height={100}
+                       className="w-16 h-16 object-cover" />
                   </td>
                   <td className="border border-gray-300 px-4 py-2">{product.name}</td>
                   <td className="border border-gray-300 px-4 py-2">${product.price}</td>

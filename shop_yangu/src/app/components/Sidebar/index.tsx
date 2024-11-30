@@ -13,7 +13,9 @@ const Sidebar = () => {
   useEffect(() => {
     const id = getCookie('userId') as string | null;
     setActiveLink(pathname);
+    console.log(id);
   }, [pathname]);
+  
 
   return (
     <div className="w-72 h-[100%] bg-customDarkBlue text-white flex flex-col">

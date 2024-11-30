@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Plus, Edit, Trash } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import Layout from "../Layout";
 import { useFetchAllShops } from "@/app/hooks/useFetchAllShops";
 
@@ -145,9 +146,11 @@ const ShopDashboard = () => {
                     {currentItems.map((shop) => (
                       <tr key={shop.id} className="hover:bg-gray-50">
                         <td className="px-4 py-4">
-                          <img
+                          <Image
                             src={shop.logo}
                             alt={`${shop.name} Logo`}
+                            width={100}
+                            height={100}
                             className="w-12 h-12 rounded-full object-cover"
                           />
                         </td>
